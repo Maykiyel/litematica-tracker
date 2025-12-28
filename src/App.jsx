@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Upload,
   Download,
@@ -726,7 +726,7 @@ const LitematicaTracker = () => {
                   placeholder="Search items..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full pl-96 pr-4 py-3 bg-stone-700 border-2 border-stone-600 rounded-lg focus:outline-none focus:border-emerald-500 text-white font-mono"
+                  className="w-full pl-10 pr-4 py-3 bg-stone-700 border-2 border-stone-600 rounded-lg focus:outline-none focus:border-emerald-500 text-white font-mono"
                 />
               </div>
               <select
